@@ -212,7 +212,7 @@ if __name__ == "__main__":
  
         @app.route('/')
         def hello_world():
-            return 'Hello, World!'
+            return ''
  
         @app.route('/<chats>')
         def hello_user(chats):
